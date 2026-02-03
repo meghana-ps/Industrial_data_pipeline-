@@ -1,5 +1,5 @@
 # Data_Pipeline 
-# This repo demonstartes my apporach **reproducible, scalable, and production-oriented data pipelines**. This project mainly focuses on transforming raw, noisy data into analytical ready output.
+This repo demonstartes my apporach **reproducible, scalable, and production-oriented data pipelines**. This project mainly focuses on transforming raw, noisy data into analytical ready output.
 
 # Key objectives
 - To build a modular and maintainable data pipeline
@@ -8,15 +8,18 @@
 - To reliable analytics and decision support
 
 
-
-
+# Taks
+- Perform pre-processing and normalization steps
+- Validating and restructuring
+- Filtering records based on target attributes or any condition
+- Categorising records into predefined groups based on numerical thresholds
+- Computing total metric as a combination of multiple input fields
 
 ## Overview About The Given Data Sets
 The give datasets,
-1) Consists structured information about various recipies with their name, ingredients, preparation method which also contains images and URLS.
-2) Are in .json format 
-3) Contains mix of categorical, numerical,textual, time based, Semi-structure, structured data
-4) Description of Columns,
+- Consists structured information about various recipies with their name, ingredients, preparation method which also contains images and URLS.
+- Contains mix of categorical, numerical,textual, time based, Semi-structure, structured data
+- Description of Columns,
      - name : tells the name of recipe
      - ingredients : gives the list of ingredients needed to prepare the particular dish
      - URL : URL that links to the recipe source of the dish
@@ -29,7 +32,6 @@ The give datasets,
 
 
 ## Project Structure
-- The code is executed in virtual environment in PyCharm
 - input folder : containing all the .json files as given
 - output folder : contains .csv files that is obtained during the process along with data visualizations and final output of the code
 - input_csv folder : contains the converted .csv files along with merged.csv file(for easy processing)
@@ -60,12 +62,6 @@ The give datasets,
 14) .md file is used for documentation 
 
 
-## Installation 
-1) Installed latest version of python 3.13.2
-2) Installed PyCharm(IDE) to create virtual environment(.venv) 
-3) ETL pipline is run in main.py file
-
-
 ## Output 
 - The final output is stored in output folder in virtual environment folder
 - It helps us to classify the difficulty level and categorise it as easy, medium and hard by calculating average total cooking time
@@ -86,7 +82,3 @@ The give datasets,
 - Application is designed in virtual environment
 - ETL pipelining provides good pathway for scalability and automation
 
-
-## Citation
-- Capping outliers : https://www.kaggle.com/code/biplavkant/how-to-detect-and-remove-outliers
-- Parsing : https://docs.kanaries.net/topics/Python/what-is-parse-python
