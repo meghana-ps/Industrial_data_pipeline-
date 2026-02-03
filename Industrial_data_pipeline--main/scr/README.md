@@ -1,31 +1,14 @@
-# HelloFresh Data Engineering Test(Meghana-PALADI-SHEKAR)
-Hello team,
-I would heart fully thank the team for considering me for the coding test and would be pleased to continue further and be a part of HelloFresh Data Engineer team soon!!
-It was glad to take up the coding test. I would soon like to be a part of HelloFresh Data Engineer 
-team and contribute more towards the competencies that ae required as a data engineer at HelloFresh.
-I definitely can assure that being a part of HelloFresh Data Engineer team, I would learn a lot 
-and improve my skills along with my career.
-I would also contribute and showcase my skills in the best possible and dynamic way.
+# Data_Pipeline 
+# This repo demonstartes my apporach **reproducible, scalable, and production-oriented data pipelines**. This project mainly focuses on transforming raw, noisy data into analytical ready output.
+
+# Key objectives
+- To build a modular and maintainable data pipeline
+- To handel real- world imperfections
+- To ensure reproducibility and transparency
+- To reliable analytics and decision support
 
 
-## Task 1 
-- Read the source files 
-- pre-processing the datasets as required
-- structuring the dataset as required for the process
-- datasets in .json format are available in input folder
 
-
-## Task 2
-- Extracting only the recipes that contains 'beef' as one of its ingredients.
-- To calculate average cooking time per difficulty level based on following condition,
-    - easy - less than 30 mins 
-    - medium - between 30 and 60 mins 
-    - hard - more than 60 mins
-- total cooking time to be calculated based on formula,
-   ```sh
-    total_cook_time = cookTime + prepTime
-   ```
-- to obtain a .csv file which contains difficulty level and avg_total_cooking_time
 
 
 ## Overview About The Given Data Sets
