@@ -7,7 +7,7 @@ This repo demonstartes my apporach for **reproducible, scalable, and production-
 - To ensure reproducibility and transparency
 - To reliable analytics and decision support
 
-# Taks
+# Tasks
 - Perform pre-processing and normalization steps
 - Validating and restructuring
 - Filtering records based on target attributes or any condition
