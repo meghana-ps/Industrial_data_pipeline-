@@ -1,12 +1,11 @@
 # Data_Pipeline 
-This repo demonstartes my apporach **reproducible, scalable, and production-oriented data pipelines**. This project mainly focuses on transforming raw, noisy data into analytical ready output.
+This repo demonstartes my apporach for **reproducible, scalable, and production-oriented data pipelines**. This project mainly focuses on transforming raw, noisy data into analytical ready output.
 
 # Key objectives
 - To build a modular and maintainable data pipeline
 - To handel real- world imperfections
 - To ensure reproducibility and transparency
 - To reliable analytics and decision support
-
 
 # Taks
 - Perform pre-processing and normalization steps
@@ -30,7 +29,6 @@ The give datasets,
      - prepTime : The time needed to prepare the dish which is given in ISO 8601 duration format where P stands for 'Period', T stands for 'Time',H stands for 'Hour' and M stands for 'Minutes'
      - description : Describes about the recipe
 
-
 ## Project Structure
 - input folder : containing all the .json files as given
 - output folder : contains .csv files that is obtained during the process along with data visualizations and final output of the code
@@ -43,7 +41,6 @@ The give datasets,
    - utils.py
 - main.py : main python file where all the functions of other .py files are called and executed
 - ETL_README.md : Documentation 
-
 
 ## Approach for the given task
 1) Created input folder where all the 3 .json files are loaded
@@ -61,24 +58,14 @@ The give datasets,
 13) manin.py files calls all the functions that are defined in other .py files
 14) .md file is used for documentation 
 
-
 ## Output 
 - The final output is stored in output folder in virtual environment folder
 - It helps us to classify the difficulty level and categorise it as easy, medium and hard by calculating average total cooking time
 - Graphs used for data visualization helps us to understand about the dataset and outliers
 
-
-## Deliverables
-1) .py files 
-2) .csv files for output and datasets
-3) graphs for data visualization
-4) ETL_README.md file as documentation
-
-
 ## Conclusion
 - The application contains ETL pipeline along with structured, efficiency, maintainability and scalability
 - Data ingestion, transformation and storage is done successfully and graphs for data visualization are obtained
 - Modular design of code with logging, error handling and supporting helper files 
-- Application is designed in virtual environment
 - ETL pipelining provides good pathway for scalability and automation
 
